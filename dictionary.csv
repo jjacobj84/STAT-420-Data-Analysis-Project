@@ -1,0 +1,35 @@
+﻿Variable ,Comment,Type
+randid,Random ID,integer
+death,Death indicator,factor
+angina,Incident Angina Pectoris,factor
+hospmi,Incident Hospitalized MI,factor
+mi_fchd,Incident Hosp. HI - Fatal CHD,factor
+anychd,"Incident Hosp. HI, AP, CI, Fatal CHD",factor
+stroke,Incident Stroke Fatal / non - fatal,factor
+cvd,"Incident Hosp MI or Stroke, Fatal or Non",factor
+hyperten,Incident Hypertension,factor
+timeap,Days Baseline - Inc Angina,num
+timemi,Days Baseline - Inc Hosp MI,num
+timemifc,Days Baseline - Inc MI _ Fatal CHD,num
+timechd,Days Baseline - Inc ANY CHD,num
+timestrk,Days Baseline - Inc Stroke,num
+timecvd,Days Baseline - Inc CVD,num
+timedth,Days Baseline - Death,num
+timehyp,Days Baseline - Hypertension,num
+sex,Sex,factor
+totchol,Serum Cholesterol mg/dL,integer
+age,Age (years) atexamination,integer
+sysbp,Systolic BP mmHg,num
+diabp,Diastolic BP mmHg,num
+cursmoke,Current Cig Smoker Y/N,factor
+cigpday,Cigarettes per day,integer
+bmi,Body Mass Index (kg / M*M),num
+diabetes,Diabetic Y/N,factor
+bpmeds,Anti - hypertensive meds Y/N,factor
+heartrte,Ventricular Rate (beats / min),integer
+glucose,Casual Blucose mg / dL,integer
+prevchd,"Prevalent CHD (MI, AP, CI)",factor
+prevap,Prevalent Angina,factor
+prevmi,"Prevalent MI (Hosp, Silent)",factor
+prevstrk,"Prevalent Stroke (Infarct, Hem)",factor
+prevhyp,Prevalent Hypertension,factor
