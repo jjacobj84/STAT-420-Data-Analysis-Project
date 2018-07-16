@@ -51,7 +51,7 @@ The Francis Galton team is interested in analyzing health data to extend a physi
 
 ### Variables
 
-The data set contains `r dim(mydf)[1]` records and `r dim(mydf)[2]` variables of the types integer, numeric, and factor. Please find a brief explanation for each variable below in the scollable table.   
+The data set contains `r dim(mydf)[2]` variables of the types integer, numeric, and factor. Please find a brief explanation for each variable below in the scollable table.   
 
 ```{r, echo = FALSE}
 
