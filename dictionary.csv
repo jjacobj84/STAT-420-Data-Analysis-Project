@@ -1,35 +1,35 @@
-﻿Variable ,Comment,Type
-randid,Random ID,integer
-death,Death indicator,factor
-angina,Incident Angina Pectoris,factor
-hospmi,Incident Hospitalized MI,factor
-mi_fchd,Incident Hosp. HI - Fatal CHD,factor
-anychd,"Incident Hosp. HI, AP, CI, Fatal CHD",factor
-stroke,Incident Stroke Fatal / non - fatal,factor
-cvd,"Incident Hosp MI or Stroke, Fatal or Non",factor
-hyperten,Incident Hypertension,factor
-timeap,Days Baseline - Inc Angina,num
-timemi,Days Baseline - Inc Hosp MI,num
-timemifc,Days Baseline - Inc MI _ Fatal CHD,num
-timechd,Days Baseline - Inc ANY CHD,num
-timestrk,Days Baseline - Inc Stroke,num
-timecvd,Days Baseline - Inc CVD,num
-timedth,Days Baseline - Death,num
-timehyp,Days Baseline - Hypertension,num
-sex,Sex,factor
-totchol,Serum Cholesterol mg/dL,integer
-age,Age (years) atexamination,integer
-sysbp,Systolic BP mmHg,num
-diabp,Diastolic BP mmHg,num
-cursmoke,Current Cig Smoker Y/N,factor
-cigpday,Cigarettes per day,integer
-bmi,Body Mass Index (kg / M*M),num
-diabetes,Diabetic Y/N,factor
-bpmeds,Anti - hypertensive meds Y/N,factor
-heartrte,Ventricular Rate (beats / min),integer
-glucose,Casual Blucose mg / dL,integer
-prevchd,"Prevalent CHD (MI, AP, CI)",factor
-prevap,Prevalent Angina,factor
-prevmi,"Prevalent MI (Hosp, Silent)",factor
-prevstrk,"Prevalent Stroke (Infarct, Hem)",factor
-prevhyp,Prevalent Hypertension,factor
+﻿Number,Variable ,Comment,Type
+1,randid,Random ID,integer
+2,death,Death indicator,factor
+3,angina,Incident Angina Pectoris,factor
+4,hospmi,Incident Hospitalized MI,factor
+5,mi_fchd,Incident Hosp. HI - Fatal CHD,factor
+6,anychd,"Incident Hosp. HI, AP, CI, Fatal CHD",factor
+7,stroke,Incident Stroke Fatal / non - fatal,factor
+8,cvd,"Incident Hosp MI or Stroke, Fatal or Non",factor
+9,hyperten,Incident Hypertension,factor
+10,timeap,Days Baseline - Inc Angina,num
+11,timemi,Days Baseline - Inc Hosp MI,num
+12,timemifc,Days Baseline - Inc MI _ Fatal CHD,num
+13,timechd,Days Baseline - Inc ANY CHD,num
+14,timestrk,Days Baseline - Inc Stroke,num
+15,timecvd,Days Baseline - Inc CVD,num
+16,timedth,Days Baseline - Death,num
+17,timehyp,Days Baseline - Hypertension,num
+18,sex,Sex,factor
+19,totchol,Serum Cholesterol mg/dL,integer
+20,age,Age (years) atexamination,integer
+21,sysbp,Systolic BP mmHg,num
+22,diabp,Diastolic BP mmHg,num
+23,cursmoke,Current Cig Smoker Y/N,factor
+24,cigpday,Cigarettes per day,integer
+25,bmi,Body Mass Index (kg / M*M),num
+26,diabetes,Diabetic Y/N,factor
+27,bpmeds,Anti - hypertensive meds Y/N,factor
+28,heartrte,Ventricular Rate (beats / min),integer
+29,glucose,Casual Blucose mg / dL,integer
+30,prevchd,"Prevalent CHD (MI, AP, CI)",factor
+31,prevap,Prevalent Angina,factor
+32,prevmi,"Prevalent MI (Hosp, Silent)",factor
+33,prevstrk,"Prevalent Stroke (Infarct, Hem)",factor
+34,prevhyp,Prevalent Hypertension,factor

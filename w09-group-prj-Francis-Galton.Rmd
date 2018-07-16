@@ -46,12 +46,12 @@ The data set is from the Framingham Heart Study, which is a long-term, ongoing c
 - Framingham Study: https://www.framinghamheartstudy.org/  
 - Data Source: https://courses.edx.org/courses/HarvardX/PH207x/2012_Fall/datasets/  
 
-The Francis Galton team is interested in analyzing health data to extend a physician’s diagnostic expertise and decision making by generating and providing “actionable intelligence”. Therefore we investigated the influence of education and gender on heart diseases. 
+The Francis Galton team is interested in analyzing health data to extend a physician’s diagnostic expertise and decision making by generating and providing “actionable intelligence”. Therefore we will investigate the influence of education and gender on heart diseases. 
 
 
 ### Variables
 
-The data set contains `r dim(mydf)[1]` records and `r dim(mydf)[2]` variables of the types integer, numeric, and factor. Please find a brief explanation below in the scollable table.   
+The data set contains `r dim(mydf)[1]` records and `r dim(mydf)[2]` variables of the types integer, numeric, and factor. Please find a brief explanation for each variable below in the scollable table.   
 
 ```{r, echo = FALSE}
 
@@ -65,7 +65,7 @@ kable(dic) %>%
 
 
 ### Data Set
-The data set contains `r dim(mydf)[1]` records. Please subest of 200 data records below in the scollable table.  
+The data set contains `r dim(mydf)[1]` records. Please find a subest of 200 data records below in the scollable table.  
 
 ```{r,  fig.width= 8, fig.height= 8, echo = FALSE}
 data = mydf[complete.cases(mydf), ]
@@ -80,6 +80,7 @@ kable(data[1:200,]) %>%
 
 
 ### Report Structure
+Our project report will be structured in 5 segments. 
 
 - Introduction
 - Methods
