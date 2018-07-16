@@ -65,7 +65,7 @@ kable(dic) %>%
 
 
 ### Data Set
-The data set contains `r dim(mydf)[1]` records. Please find a subest of 200 data records below in the scollable table.  
+The data set contains `r dim(mydf)[1]` records. Please find a subset of 200 data records below in the scollable table.  
 
 ```{r,  fig.width= 8, fig.height= 8, echo = FALSE}
 data = mydf[complete.cases(mydf), ]
