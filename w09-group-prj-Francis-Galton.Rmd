@@ -41,7 +41,7 @@ dic = read.csv("dictionary.csv")
 
 ### Background
 
-The data set is from the Framingham Heart Study, which is a long-term, ongoing cardiovascular cohort study on residents of the city of Framingham, Massachusetts. The study began in 1948 with 5,209 adult subjects from Framingham, and is now on its third generation of participants. The main goal of that study is to extend the body knowledge concerning heart diseases.  
+The data set is from the Framingham Heart Study, which is a long-term, ongoing cardiovascular cohort study on residents of the city of Framingham, Massachusetts. The study began in 1948 with 5,209 adult subjects from Framingham, and is now on its third generation of participants. The main goal of that study is to extend the body of knowledge concerning heart diseases.  
 
 - Framingham Study: https://www.framinghamheartstudy.org/  
 - Data Source: https://courses.edx.org/courses/HarvardX/PH207x/2012_Fall/datasets/  
